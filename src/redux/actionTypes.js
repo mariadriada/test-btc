@@ -1,0 +1,1 @@
+export const GET_ALL_COINS = "GET_ALL_COINS"
