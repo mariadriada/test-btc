@@ -1,4 +1,4 @@
-import { GET_ALL_COINS } from "../actionTypes";
+import { SET_ALL_COINS } from "../actionTypes";
 
 const initialState = {
   allCoins: [],
@@ -8,13 +8,13 @@ const initialState = {
 export default function(state = initialState, action) {
   console.log("Reducer", state, action);
   switch (action.type) {
-    case GET_ALL_COINS:
+    case SET_ALL_COINS:
       {
-        console.log("GET_ALL_COINS reducer")
+        console.log("SET_ALL_COINS reducer", state, action);
         return {
-            ...state,
-            allCoins: []
-        }
+          ...state,
+          allCoins: action.payload.coins
+        };
       }
       break;
     default:

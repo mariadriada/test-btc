@@ -1,10 +1,12 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Alert } from 'react-bootstrap'
-import store from './redux/store'
+import configureStore from './redux/store'
 import { Provider } from 'react-redux'
 import Coins from './components/Coins'
 import './App.scss'
+
+const store = configureStore()
 
 function App() {
   return (
