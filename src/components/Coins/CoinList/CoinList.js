@@ -14,10 +14,8 @@ import "./style.scss";
 
 const CoinList = props => {
   let [items, setItems] = useState([]);
-  //let [currentItems, setCurrentItems] = useState([]);
   let [itemsShowed, setItemShowed] = useState(40);
   let [scrollTop, setScrollTop] = useState(0);
-  //let [i, setI] = useState(0);
   const { coins, conversionData } = props;
 
   useState(() => {

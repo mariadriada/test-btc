@@ -39,7 +39,7 @@ export const setConversion = content => ({
 
 export const setKey = key => ({
   type: SET_KEY,
-  key
+  key: key
 });
 
 export const setData = content => ({

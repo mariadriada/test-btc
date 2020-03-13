@@ -10,6 +10,7 @@ export default function customSelector(props) {
         as="select"
         className="select"
         onChange={e => props.getValue(props.id, e.target.value)}
+        value={props.value}
       >
         <option>{props.default}</option>
         {props.options.map((coin, i) => (

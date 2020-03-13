@@ -42,8 +42,8 @@ const Converter = props => {
   };
 
   const chageCoinToConverter = async () => {
-    await props.setData({id: 'from', value: conversionData.data.to})
-    await props.setData({id: 'to', value: conversionData.data.from})
+    props.setData({id: 'from', value: conversionData.data.to})
+    props.setData({id: 'to', value: conversionData.data.from})
     props.converter(Object.assign(conversionData.data, { 
       to: conversionData.data.from, 
       from: conversionData.data.to
@@ -110,7 +110,6 @@ const mapStateToProps = ({ coins, conversionData }) => ({
   coins,
   conversionData,
   converted: conversionData.converted
-
 });
 
 const mapDispatchToProps = dispatch => ({
