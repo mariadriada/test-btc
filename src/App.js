@@ -1,24 +1,22 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { Alert } from 'react-bootstrap'
-import configureStore from './redux/store'
-import { Provider } from 'react-redux'
-import Coins from './components/Coins'
-import './App.scss'
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import configureStore from "./redux/store";
+import { Provider } from "react-redux";
+import Coins from "./components/Coins";
+import "./App.scss";
 
-const store = configureStore()
+const store = configureStore();
 
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">
-        <Alert variant="success">
-          Hello... Boostrap ok!
-        </Alert>
-        <Coins />
-      </div>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" exact component={Coins}></Route>
+        </Switch>
+      </BrowserRouter>
     </Provider>
-    
   );
 }
 

@@ -1,0 +1,17 @@
+$bg-color-container: white;
+
+.layout {
+  background-color: #eaf4ff;
+  min-height: 100vh;
+  padding-bottom: 20vh;
+  width: 100vw;
+
+  .main-container {
+    max-width: 85%;
+    background-color: $bg-color-container;
+    min-height: inherit;
+    padding: 5% 0 10% 0;
+    height: auto;
+    margin: 0 auto;
+  }
+}

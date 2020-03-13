@@ -1,0 +1,40 @@
+$border-color: #EEEEEE;
+$max-width: 85%;
+
+.nav-tabs {
+  border: 0.1rem solid $border-color;
+  padding-top: 5%;
+  font-family: 'Titillium Web', sans-serif;
+  //font-weight: 600;
+  width: $max-width;
+  margin: 0 auto;
+  border-radius: 3px; 
+  
+  a{
+    font-size: 1.3rem;
+    color: #4E4E4E;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+
+  .nav-item{
+    border: 0;
+    &.active{
+      border-bottom: 7px solid #0075FE;
+      color: #0075FE;
+      font-weight: 900;
+    }
+  }
+}
+
+.tab-content {
+  border-bottom: 1px solid $border-color;
+  border-right: 1px solid $border-color;
+  border-left: 1px solid $border-color;
+  padding: 5% 0 0 5%;
+  width: $max-width;
+  margin: 0 auto;
+  min-height: 80vh;
+  padding: 0;
+  padding: 3% 0 3% 0;
+}
