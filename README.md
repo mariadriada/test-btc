@@ -13,7 +13,7 @@ Getting data of  the [BraveNewCoin](https://rapidapi.com/BraveNewCoin/api/crypto
 Open [https://test-btc.surge.sh/](https://test-btc.surge.sh/) to view it in the browser.
 
 ### Local repository:
-You need have npm installed.
+Do you need to have npm installed.
 1. Clone repository in a local folder: `git clone https://github.com/mariadriada/test-btc.git`
 2. Change to folder: `cd test-btc` 
 3. Install dependences: `npm install`
@@ -23,4 +23,3 @@ You need have npm installed.
 Thank you so much!
 
 *Happy Day*
-Readme description updated

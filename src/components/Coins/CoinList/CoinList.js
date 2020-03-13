@@ -44,7 +44,7 @@ const CoinList = props => {
       <React.Fragment>
         <Row className="thead">
           <Col>Nombre</Col>
-          <Col className="left" >Precio</Col>
+          <Col className="left" md={4}>Precio</Col>
           <Col className="center">Criptomoneda</Col>
           <Col className="right">Convertir</Col>
         </Row>
