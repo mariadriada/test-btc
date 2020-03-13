@@ -9,9 +9,7 @@ Getting data of  the [BraveNewCoin](https://rapidapi.com/BraveNewCoin/api/crypto
 - Redux Saga Middleware
 - React Bootstrap
 
-In the project directory, you can run:
-
-### `Open on Browser`
+### Open on Browser
 Open [https://test-btc.surge.sh/](https://test-btc.surge.sh/) to view it in the browser.
 
 ### Local repository:
@@ -25,3 +23,4 @@ You need have npm installed.
 Thank you so much!
 
 *Happy Day*
+Readme description updated
