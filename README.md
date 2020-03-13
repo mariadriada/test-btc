@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## TEST-BTC
+Getting data of  the [BraveNewCoin](https://rapidapi.com/BraveNewCoin/api/crypto-asset-tickers) API and to do  coins conversions.
 
 ### Technologies:
 - React
